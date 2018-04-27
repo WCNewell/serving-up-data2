@@ -90,7 +90,7 @@ function findById(data, id) {
 
 app.get("/", (request, response) => {
   response.status(200);
-  response.json({ data: cohorts });
+  response.json({ data: instructors });
 });
 
 app.get("/:id", (request, response) => {
